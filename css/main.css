@@ -26,6 +26,7 @@ html.wf-active {
     background-image: url("../images/hero-new.jpg");
     background-size: cover; 
     background-attachment: fixed;
+    background-size: center center;
 }
 
 .hero:before {
