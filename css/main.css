@@ -1,11 +1,46 @@
 h4.titlepage
 {
-	text-align: center;
-	margin-top: 15%;
-	font-size: 400%;
-	color: white;
+    text-align: center;
+    font-size: 400%;
+    color: white;
 }
 
-body {
-    background-image: url("https://images.unsplash.com/photo-1432821596592-e2c18b78144f?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=3f9c78df0edb464244bbabb04d1797d8");
-    }
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+html.wf-active {
+    font-family: 'Lato';
+}
+
+.hero {
+    display: flex;
+    height: 100%;
+    width :100%;
+    background-image: url("../images/hero-low.jpg");
+    background-size: cover; 
+    background-attachment: fixed;
+}
+
+.hero:before {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    content: '';
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.titlepage {
+    margin: auto;
+    z-index: 100;
+    font-weight: 100;
+}
+
+.main {
+    height: 100%;
+}
