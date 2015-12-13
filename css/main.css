@@ -3,6 +3,7 @@ h4.titlepage
     text-align: center;
     font-size: 400%;
     color: white;
+    margin-top: 15%;
 }
 
 html, body {
@@ -22,7 +23,7 @@ html.wf-active {
     display: flex;
     height: 100%;
     width :100%;
-    background-image: url("../images/hero-low.jpg");
+    background-image: url("../images/hero-new.jpg");
     background-size: cover; 
     background-attachment: fixed;
 }
