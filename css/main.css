@@ -51,3 +51,24 @@ html.wf-active {
     font-size: 60pt;
     color: white;
 }
+
+
+h1.heading
+{
+
+text-align: left;
+margin-top: 20%;
+
+}
+
+.imp{
+    text-align: center;
+    margin-left: 14%;
+    margin-right: 14%;
+    font-size: 150%;
+}
+
+
+
+
+
