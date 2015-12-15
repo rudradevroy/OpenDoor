@@ -27,6 +27,7 @@ html.wf-active {
     background-size: cover; 
     background-attachment: fixed;
     background-size: center center;
+    position: relative;
 }
 
 .hero:before {
@@ -54,7 +55,23 @@ h5.dates
     border-bottom: 25%;
 
 }
-p.up1{
+
+p.up1 {
     text-align: center;
     color: white;
+}
+
+.center-me {
+    margin: auto;
+    z-index: 1000;
+}
+
+.dates {
+    position: absolute;
+    top: 0px;
+    right: 20px;
+}
+
+.hero-wrap {
+    height: 100%;
 }
