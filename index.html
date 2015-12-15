@@ -7,6 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <script src="js/smooth.js" async></script>
 </head>
 <body>
   
@@ -17,11 +19,11 @@
                 <!--Centered Content goes here -->
                 <h1 class = "title"> The Open Floor </h1>
                 <h2 class="dates">24th December and 27th December</h2> 
-            </div>
-        
-        </div>
 
-          
+            </div>
+        </div>
+        <i class="icon-rewind"></i>
+    </div> 
     <article class="main">
         <!--Stuff below the image goes here --> 
         <h2> About the fundraiser </h2>
@@ -30,7 +32,6 @@ Our goal is to open two campuses: one in Bangalore and kolkata which can house a
 </p>
         </article>
         
-    </div>
 
 
     <script type="text/javascript">
@@ -46,6 +47,12 @@ Our goal is to open two campuses: one in Bangalore and kolkata which can house a
 	var s = document.getElementsByTagName('script')[0];
 	s.parentNode.insertBefore(wf, s);
       })(); 
+    </script>
+
+    <script>
+document.querySelector("i").onclick = (function() {
+    window.scrollTo(window.innerHeight);
+});
     </script>
 
 </body>

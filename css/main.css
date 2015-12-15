@@ -70,11 +70,21 @@ p.imp{
 
 .main {
     width: 700px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 14pt;
     line-height: 1.5;
     margin-top: 100px;
     padding-bottom: 50px;
 }
 
-
+i.icon-rewind {
+    color: white;
+    font-size: 40px;
+    transform: rotate(270deg);
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    position: absolute;
+    bottom: 25px
+}
