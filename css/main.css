@@ -19,19 +19,7 @@ html.wf-active {
     display: flex;
     height: 100%;
     width :100%;
-    /*background-image: url("../images/hero-new.jpg");*/
-    /*background-size: cover; */
-    /*background-attachment: fixed;*/
-    /*background-size: center center;*/
     position: relative;
-}
-
-.hero:before {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    content: '';
-    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .outer {
@@ -100,4 +88,5 @@ i.icon-rewind {
 
 iframe {
     margin-top: 50px;
+    pointer-events: none;
 }
