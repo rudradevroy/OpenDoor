@@ -1,15 +1,31 @@
+@font-face {
+    src: url(../fonts/pnl.otf);
+    font-family: 'Proxima Nova';
+    font-weight: 100;
+}
+
+@font-face {
+    src: url(../fonts/pnn.otf);
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+}
+
 html, body {
     height: 100%;
     width: 100%;
 }
 
 html {
-    font-family: sans-serif;
+    font-family: 'Proxima Nova';
+    font-size: 16pt;
 }
 
-html.wf-active {
-    font-family: 'Lato';
+h1, h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 100;
 }
+
 
 .hero-wrap {
     height: 100%;
@@ -20,6 +36,7 @@ html.wf-active {
     height: 100%;
     width :100%;
     position: relative;
+    background-color: #2c303f;
 }
 
 .outer {
@@ -46,6 +63,10 @@ html.wf-active {
     text-align: center;
     font-size: 60pt;
     color: white;
+    font-family: 'Proxima Nova';
+    font-weight: 100;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 30px gray;
 }
 
 
@@ -87,6 +108,23 @@ i.icon-rewind {
 }
 
 iframe {
-    margin-top: 50px;
+    margin-top: 75px;
     pointer-events: none;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+canvas {
+    position: absolute;
+}
+
+.latin {
+    text-align: center;
+    color: white;
+    text-transform: none;
+    font-style: oblique;
+    font-size: 22px;
+    margin-bottom: 50px;
 }
