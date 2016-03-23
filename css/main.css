@@ -1,5 +1,34 @@
+body{
+    background-color: #f0f0f0;
+}
 .OpenDoor{
     text-align: center;
     margin-top: 0.5%;
     font-family: 'Poiret One' , cursive;
+}
+
+.side-text1{
+    
+    margin-left: 5%;
+    margin-right: 55%;
+    margin-top: 5%;
+    font-family: 'Alegreya', serif;
+    font-size: 120%;
+}
+
+.side-text{
+    margin-left: 5%;
+    margin-right: 55%;
+    margin-top: -1.7%;
+    font-family: 'Alegreya', serif;
+    font-size: 120%;
+}
+
+.side-photo{
+    
+    width: 40%;
+    height: 30%;
+    margin-top: -22%;
+    margin-left: 50%;
+    
 }
