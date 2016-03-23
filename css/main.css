@@ -1,10 +1,10 @@
-body{
-    background-color: #f0f0f0;
-}
+
 .OpenDoor{
     text-align: center;
     margin-top: 0.5%;
     font-family: 'Poiret One' , cursive;
+    text-decoration: underline;
+    
 }
 
 .side-text1{
@@ -24,11 +24,22 @@ body{
     font-size: 120%;
 }
 
-.side-photo{
-    
-    width: 40%;
-    height: 30%;
-    margin-top: -22%;
-    margin-left: 50%;
+
+#image{
+    position: relative;
+    z-index: -1;
+    height: 1000px;
     
 }
+
+#content{
+    
+    height: 750px;
+    width: 100%;
+    margin-top: -10px;
+    background-color: #ffe6c9;
+    position: relative;
+    z-index: 1;
+    
+}
+

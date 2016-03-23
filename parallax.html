@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/main.css">    
+    
+
+    
+</head>
+
+
+<body>
+    
+   <img id="image" src="images/main.jpg" height="800px" width="100%"/>
+    <div id="content">
+    
+        </div>
+    
+    
+    <script type=text/javascript>
+    
+    var ypos, image;
+    
+    function parallax(){
+        
+        ypos = window.pageYOffset;
+        image = document.getElementById('image');
+        image.style.top = ypos *.3 + 'px';
+    }
+    
+    window.addEventListener('scroll', parallax);
+    
+    </script>
+    </body>
+</html>
