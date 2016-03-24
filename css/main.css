@@ -1,5 +1,14 @@
-
-.OpenDoor{
+.OpenDoor2
+{
+    text-align: left;
+    font-family: 'Poiret One' , cursive;
+    text-decoration: underline;
+    font-size: 35px;
+    margin-left: 5%;
+    margin-top: 10px;
+}
+.OpenDoor
+{
     text-align: center;
     margin-top: 0.5%;
     font-family: 'Poiret One' , cursive;
@@ -8,7 +17,8 @@
 }
 
 
-h2{
+h2
+{
     
     font-family: 'Alegreya', serif;
     margin-top: 5%;
@@ -16,7 +26,8 @@ h2{
     
 }
 
-.side-text1{
+.side-text1
+{
     
     margin-left: 5%;
     margin-right: 55%;
@@ -24,7 +35,8 @@ h2{
     font-size: 120%;
 }
 
-.side-text{
+.side-text
+{
     margin-left: 5%;
     margin-right: 55%;
     margin-top: -1.7%;
@@ -33,17 +45,18 @@ h2{
 }
 
 
-#image{
+#image
+{
     position: relative;
     z-index: -1;
     height: 450px;
     width: 50%;
     margin-left: 25%;
     margin-top: 2%;
-      }
+}
 
-#content{
-    
+#content
+{
     height: 750px;
     width: 100%;
     margin-top: -10px;
@@ -56,10 +69,12 @@ h2{
 nav ul
 {
     color: whitesmoke;
-    letter-spacing: 2px;
+    letter-spacing: 0.5px;
     overflow: hidden;
     text-align: center;
-    margin: 15px;
+    margin-top: -55px;
+    margin-left: 100px;
+    margin-right: 10px;
     
 }
 
@@ -74,8 +89,8 @@ nav ul li
 {
     display: inline-block;
     padding-right: 25px;
-    font-family: 'Homenaje', sans-serif;
-    font-size: 28px;
+    font-family: 'Droid Sans' , sans-serif;
+    font-size: 25px;
 }
 
 .main{
