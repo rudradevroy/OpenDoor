@@ -7,11 +7,19 @@
     
 }
 
+
+h2{
+    
+    font-family: 'Alegreya', serif;
+    margin-top: 5%;
+    margin-left: 5%;
+    
+}
+
 .side-text1{
     
     margin-left: 5%;
     margin-right: 55%;
-    margin-top: 5%;
     font-family: 'Alegreya', serif;
     font-size: 120%;
 }
@@ -28,18 +36,50 @@
 #image{
     position: relative;
     z-index: -1;
-    height: 1000px;
-    
-}
+    height: 450px;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 2%;
+      }
 
 #content{
     
     height: 750px;
     width: 100%;
     margin-top: -10px;
-    background-color: #ffe6c9;
+    background-color: white;
     position: relative;
     z-index: 1;
     
 }
 
+nav ul
+{
+    color: whitesmoke;
+    letter-spacing: 2px;
+    overflow: hidden;
+    text-align: center;
+    margin: 15px;
+    
+}
+
+a 
+{
+    text-decoration: none;
+    color: black;
+    
+}
+
+nav ul li
+{
+    display: inline-block;
+    padding-right: 25px;
+    font-family: 'Homenaje', sans-serif;
+    font-size: 28px;
+}
+
+.main{
+    
+    margin-left: -100px;
+
+}
