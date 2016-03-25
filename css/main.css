@@ -5,7 +5,8 @@
     text-decoration: underline;
     font-size: 35px;
     margin-left: 5%;
-    margin-top: 10px;
+    margin-top: 0.5%;
+    
     
 }
 .OpenDoor
@@ -23,14 +24,14 @@ h2
     
     font-family: 'Alegreya', serif;
     margin-top: 5%;
-    margin-left: 5%;
+    margin-left: 19.5%;
     
 }
 
 .side-text1
 {
     
-    margin-left: 5%;
+    margin-left: 19.5%;
     margin-right: 55%;
     font-family: 'Alegreya', serif;
     font-size: 120%;
@@ -38,7 +39,7 @@ h2
 
 .side-text
 {
-    margin-left: 5%;
+    margin-left: 19.5%;
     margin-right: 55%;
     margin-top: -1.7%;
     font-family: 'Alegreya', serif;
@@ -50,10 +51,11 @@ h2
 {
     position: relative;
     z-index: -1;
-    height: 450px;
+    height: 550px;
     width: 50%;
     margin-left: 25%;
-    margin-top: 2%;
+    margin-top: -0.5%;
+    box-shadow: 0.5px 5px 10px 5px #333;
 }
 
 #content
@@ -68,14 +70,14 @@ h2
 }
 
 nav ul
-{
+{   
+
     color: whitesmoke;
     letter-spacing: 0.5px;
-    overflow: hidden;
+    overflow: visible;
     text-align: center;
-    margin-top: -55px;
-    margin-left: 100px;
-    margin-right: 10px;
+    margin-top: 0.5%;
+  
     
 }
 
@@ -89,9 +91,14 @@ a
 nav ul li
 {
     display: inline-block;
-    padding-right: 25px;
-    font-family: 'Droid Sans' , sans-serif;
-    font-size: 25px;
+    padding-right: 15px;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    margin-top: 0.5%;
+    padding-bottom: 1%;
+    margin-right: 1%;
+
 }
 
 .main{
@@ -100,7 +107,28 @@ nav ul li
 
 }
 
-.header
+.headline
 {
-    box-shadow: 0px 4px 4px -5px #333;
+    margin-top: 10%;
+}
+
+nav{
+      
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 70px;
+  box-shadow: 0px 4px 4px -5px #333;
+    
+}
+
+.title-logo
+{
+    margin-left: -18%;
+    margin-right: 10%;
+    font-family: 'Rhodium Libre' , serif;
+    text-decoration: underline;
+    font-size: 22px;
 }
